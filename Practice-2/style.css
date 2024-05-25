@@ -1,0 +1,14 @@
+div{
+    background-color: black;
+    color: white;
+}
+div>p:first-child{
+    color: yellow;
+}
+
+/* div>p:nth-child(2){
+color: white;
+}
+div>p:nth-child(3){
+    color: white;
+} */

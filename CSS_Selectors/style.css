@@ -1,0 +1,45 @@
+
+
+p{
+    size: 10cm;
+    margin: 0%;
+    color: purple;
+    text-align: center;
+    
+}
+#name{
+    size: 25cm;
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+h1{
+    size: 25cm;
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.orbit{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+div>p{
+    color: black;
+    text-align: left;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+}
+#ready{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
