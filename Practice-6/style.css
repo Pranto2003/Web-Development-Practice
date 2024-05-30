@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+.content ul :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.image img {
+    width: 160px;
+    height: 70px;
+}
