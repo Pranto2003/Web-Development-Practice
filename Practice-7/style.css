@@ -1,0 +1,153 @@
+.container {
+    width: 1200px;
+    height: 1200px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+.image img {
+    width: 200px;
+    height: 80px;
+}
+
+.bars ul {
+    margin: 30px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bars ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content p:nth-child(1) {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.content p:nth-child(2) {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.download {
+    margin-top: 20px;
+    margin-left: 450px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(134, 181, 237);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.download:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    place-items:center;
+}
+
+.card1 {
+    margin-left: 70px;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    gap: 30px;
+}
+
+.card2 {
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    gap: 30px;
+}
+
+.card3 {
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    gap: 30px;
+}
+
+.card4 {
+    margin-left: 70px;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card5 {
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card6 {
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.miniDownload{
+    background-color: #5cb85c;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 780;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.miniDownload a{
+    color: white;
+    text-decoration: none;
+}
+.miniDownload:hover{
+    background-color: #9cc59c;
+    cursor: pointer;
+}
