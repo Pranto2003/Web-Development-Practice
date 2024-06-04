@@ -5,46 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transition & Animations</title>
-    <style>
-        .container {
-            width: 80vw;
-            height: 90vh;
-            background-color: black;
-            margin-top: 40px;
-            margin-left: 140px;
-            position: relative;
-        }
-
-        .ball {
-            width: 80px;
-            height: 80px;
-            background-color: yellow;
-            bottom: 0;
-            position: absolute;
-            border-radius: 70px;
-            animation: animationX 3s linear infinite, animationY 1s ease-out infinite alternate;
-        }
-
-        @keyframes animationX {
-            from {
-                left: 0;
-            }
-
-            to {
-                left: 100%;
-            }
-        }
-
-        @keyframes animationY {
-            from {
-                bottom: 0;
-            }
-
-            to {
-                bottom: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
