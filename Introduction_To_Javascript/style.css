@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    width: 1536px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.box h4{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
