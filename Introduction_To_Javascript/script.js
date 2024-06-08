@@ -14,3 +14,9 @@ console.log(o);
 o.salary = "500 Crores";
 console.log("After Adding Salary :");
 console.log(o);
+
+
+console.log("Practicing loops");
+for (let i = 0; i < 10; i++){
+  console.log(a, "X", i, " = ", a*i);
+}
