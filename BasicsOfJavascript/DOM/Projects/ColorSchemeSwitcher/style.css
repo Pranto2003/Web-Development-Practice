@@ -1,0 +1,30 @@
+h1 {
+  margin-top: 100px;
+}
+h2 {
+  margin-top: 80px;
+}
+body {
+  text-align: center;
+}
+.button {
+  width: 230px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 10px;
+  border: 5px solid black;
+  align-items: center;
+}
+#Grey {
+  background-color: gray;
+}
+#White {
+  background-color: white;
+}
+#Blue {
+  background-color: blue;
+}
+#Yellow {
+  background-color: yellow;
+}
