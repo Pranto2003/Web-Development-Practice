@@ -5,22 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promises in Javascript</title>
   </head>
-  <style>
-    .card {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .box {
-      width: 500px;
-      height: 100px;
-      border: 5px solid black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
   <body>
     <div class="container">
       <div class="card">
@@ -30,24 +15,5 @@
       </div>
     </div>
   </body>
-  <script>
-    function createColorPromise() {
-      return new Promise((resolve, reject) => {
-        let var1 = Math.ceil(1 + Math.random() * 255);
-        let var2 = Math.ceil(1 + Math.random() * 255);
-        let var3 = Math.ceil(1 + Math.random() * 255);
-
-        resolve(`rgb(${var1}, ${var2}, ${var3})`);
-      });
-    }
-
-    document.querySelector(".box").addEventListener("click", function (e) {
-      let p = createColorPromise();
-      p.then((result) => {
-        document.querySelector(".box").style.backgroundColor = result;
-      }).catch((error) => {
-        alert(error);
-      });
-    });
-  </script>
+  <script src="script.js"></script>
 </html>
