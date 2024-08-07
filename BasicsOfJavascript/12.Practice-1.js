@@ -3,14 +3,22 @@ function getSecondLargestValue(array) {
 
   console.log("---------------------");
 
-  console.log("The Sorted array is :");
+  let size = array.length;
 
-  for (let index = 0; index < array.length; index++) {
-    console.log(array[index]);
+  // Applying the bubble sort algorithm
+  for (let i = 0; i < size - 1; i++) {
+    for (let j = 0; j < size - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        let temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
   }
-  console.log("The 2nd largest value is :" + array[1]);
+  console.log("The Sorted array is :"+array);
+  console.log("The 2nd largest value is :" + array[size - 2]);
   console.log("---------------------");
 }
 
-let arr = [2, 4, 1, 8,5];
+let arr = [2, 4, 1, 8, 5];
 getSecondLargestValue(arr);
