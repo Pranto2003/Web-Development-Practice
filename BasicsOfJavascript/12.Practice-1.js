@@ -1,5 +1,4 @@
 function getSecondLargestValue(array) {
-  array.sort();
 
   console.log("---------------------");
 
