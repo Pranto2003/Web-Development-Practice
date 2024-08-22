@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+span button:nth-child(1) {
+  background-color: green;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+span button:nth-child(2) {
+  background-color: red;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.yes:hover {
+  background-color: rgb(4, 51, 4);
+  color: white;
+}
+.no:hover {
+  background-color: rgb(134, 7, 7);
+  color: white;
+}
