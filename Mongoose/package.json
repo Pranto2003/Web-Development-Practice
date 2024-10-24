@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7"
+  },
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "Using MongoDB",
+  "main": "main.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Pranto Goswamee",
+  "license": "ISC"
+}
